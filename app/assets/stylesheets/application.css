@@ -1,0 +1,188 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+@font-face {
+    font-family: Helvectica-neue;
+    src: url('fonts/HelveticaNeue-UltraLight.otf') format('opentype');
+}
+
+#first-roots.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#first-roots.navbar-default {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#first-roots.navbar-default .navbar-nav>li>a {
+    color: rgba(187, 187, 187, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#first-roots.navbar-default .navbar-nav>li>a:hover,
+#first-roots.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(51, 51, 51, 1);
+}
+#first-roots.navbar-default .navbar-nav>.active>a,
+#first-roots.navbar-default .navbar-nav>.active>a:hover,
+#first-roots.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(51, 51, 51, 1);
+}
+#first-roots.navbar-default .navbar-toggle {
+    border-color: #666;
+}
+#first-roots.navbar-default .navbar-toggle:hover,
+#first-roots.navbar-default .navbar-toggle:focus {
+    background-color: #666;
+}
+#first-roots.navbar-default .navbar-toggle .icon-bar {
+    background-color: #666;
+}
+#first-roots.navbar-default .navbar-toggle:hover .icon-bar,
+#first-roots.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.form-control {
+    color: #ccc;
+    background-color: #666;
+    border: none;
+}
+
+body{
+  background-color: #202020;
+  color: white;
+  font-family: 'Helvectica-neue';
+  letter-spacing: 0.5px;
+}
+.page-body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+#mc-embedded-subscribe-form {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:350px;
+    max-height: 390px
+}
+
+.widget{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width:350px;
+    padding-bottom: 30px;
+  
+}
+
+.btn-default {
+    color: white;
+    background-color: #aaa;
+    border-color: #aaa;
+    text-shadow: none;
+}
+.btn{
+      padding: 3px 10px;
+}
+.btn:hover{
+  background-color:#ccc;
+  color:white;
+}
+.logo{
+    width: 100%;
+    margin-top: -70px;
+      z-index: -9999;
+    position: relative;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+}
+
+h1{
+  
+  font-size: 65px;
+}
+
+.signup-text {
+  
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.signup-text2{
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Sticky footer styles
+     -------------------------------------------------- */
+
+     html,
+     body {
+       height: 100%;
+       /* The html and body elements cannot have any padding or margin. */
+     }
+
+     /* Wrapper for page content to push down footer */
+     #wrap {
+       min-height: 100%;
+       height: auto !important;
+       height: 100%;
+       /* Negative indent footer by it's height */
+       margin: 0 auto -80px;
+              z-index: -1000 !important;
+       padding-bottom: 80px;
+     }
+     
+     /* Set the fixed height of the footer here */
+     #push,
+     #footer {
+       height: 80px;
+     }
+     #footer {
+       background-color:rgba(51, 51, 51, 1);
+      padding-top:20px;
+     }
+     /* Lastly, apply responsive CSS fixes as necessary */
+     @media (max-width: 767px) {
+       #footer {
+         margin-left: -20px;
+         margin-right: -20px;
+         padding-left: 20px;
+         padding-right: 20px;
+       }
+     }
+.pull-right{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.pull-left{
+  max-width: 200px;
+}
